@@ -5,4 +5,4 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/reposit
 
 EXPOSE 2342/udp
 
-ENTRYPOINT chocolate-doom -dedicated -privateserver
+ENTRYPOINT chocolate-doom -dedicated ${PUBLIC--privateserver}
